@@ -34,6 +34,13 @@ ALTER TABLE ENDERECO ADD CONSTRAINT
 FK_ENDERECO FOREIGN KEY (ID_BAIRRO) REFERENCES BAIRRO;
 
 
+INSERT INTO pais (
+    id_pais,
+    pais
+)VALUES (
+    "toronto"
+);
+
 
 
                             
